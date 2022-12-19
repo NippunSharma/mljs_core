@@ -4,3 +4,4 @@ dist-module/
 package-lock.json/
 .vscode/
 .nyc_output/
+node_modules/
