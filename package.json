@@ -1,0 +1,16 @@
+{
+  "name": "@ml.js/core",
+  "version": "0.1.0-beta.0",
+  "description": "mljs wasm core.",
+  "main": "dist/index.js",
+  "scripts": {
+    "rebuild": "npm run clean && npm run build",
+    "build": "shx mkdir -p dist && tsc",
+    "clean": "shx rm -rf dist"
+  },
+  "author": "Nippun Sharma",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}
